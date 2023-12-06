@@ -11,35 +11,59 @@ Hour:The hour of the day
 Temperature (°C): Temprature in celcius
 
 Humidity:Humidity in the air
+
 Wind_speed(m/s):speed of wind
-Visibility (10cm): Visibility in m
+
+Visibility (10cm): Visibility in cm
+
 Dew_Point: Temperature of beginning of day
-Solar_rediation(MJ/m2):Sun contributions
+
+Solar_rediation(MJ/m2):Sun contributions in m
+
+
 Rainfall(mm):Amount of raining in cm
+
 Snowfall (cm): Amount of snowing in cm
+
 Season:Season of the year
+
 Holidays:If the day is holiday or not
+
 Functioning_day:If the day is functioning day or not
+
 # Approach:-
+
 # Data Preperation:-
 • Checked for null values using isnull() method
+
 •.Checked For duplicate values using duplicated() method
+
 • Checked info of data, columns in dataset.
 # Feature Engineering:-
 • Checked outliers from dataset and handled them.
+
 • Created Year,Month and day column from Date feature.
+
 • Created new features like Weekend and month.
+
 • Dropped the columns which are not needed.
+
 • Scaled the features of data.
 # Used Models:-
 •Linear Regression
+
 •Random Forest
+
 •Lasso 
+
 • Linear Regression with GridSearchCV
+
 • Ridge with GridSearchCV
+
 • Gradient Boost with GridSearchCV
 # Conclusion:-
 - Important features which affects the model most are winter, summer seasons and Functioning_day, Temperature,Holiday.
+- 
 - Using Linear regression and Lasso algorithm I got 83% r2 score for test dataset.
 
 
