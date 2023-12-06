@@ -3,9 +3,13 @@
 Nowadays rental bikes are introduced in many urban cities for the improvement of mobile comfort.It is important to make tental bikes available to the public at the right time.As it makes waste of time . Eventually providing a cities with supply of rental bikes become a major concern.Themain objective is to predict the bikes count required at each hour for supply of rental bikes.
 # Variables:-
 Date:Date of the day
+
 Rented_bike_count:Number of rented bike per hour
+
 Hour:The hour of the day
+
 Temperature (°C): Temprature in celcius
+
 Humidity:Humidity in the air
 Wind_speed(m/s):speed of wind
 Visibility (10cm): Visibility in m
